@@ -1,0 +1,8 @@
+Laboratoire_Informatique_Avignon_LIA-Submission1
+
+I used class specific keywords extracted from the training dataset (keywords + title + abstract) with a TF-IDF to enhance a HuggingFace PubMedBERT model (microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext) adapted to the task by changing the loss function to a BCE one for multi-label classification and running it during 28 epochs with a learning rate of 5e-5.
+
+TF-IDF
+PubMedBERT
+multi-label
+BCE

@@ -1,0 +1,11 @@
+Laboratoire_Informatique_Avignon_LIA-Submission4
+
+
+I trained a 1-2-3 gram TF-IDF on both Train and Dev datasets to compute df vectors (dimension 20K) which will represents documents (keywords + title + abstract) in the multi-label SVM classifier.
+
+TF-IDF
+SVM
+multi-label
+1 gram
+2 gram
+3 gram

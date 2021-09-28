@@ -1,0 +1,8 @@
+Laboratoire_Informatique_Avignon_LIA-Submission5
+
+I used class specific keywords extracted from the training dataset (keywords + title + abstract) with a TF-IDF to enhance a pretrained model called TARS based on the paper "Task-Aware Representation of Sentences for Generic Text Classification" available in the framework Flair adapted to the task for multi-label classification and running it during 10 epochs on Train only with a learning rate of 0.02.
+
+TF-IDF
+Flair
+TARS
+multi-label
