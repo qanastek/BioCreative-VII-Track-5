@@ -35,11 +35,13 @@ I used a pretrained model called TARS based on the paper "Task-Aware Representat
 
 **Folder**: `model 1 - 50 runs flair tars`
 
-### BC7 Submission 42
+### [Refused] BC7 Submission 42
 
 I used class specific keywords extracted from the training dataset (keywords + title + abstract) with a TF-IDF to enhance a HuggingFace PubMedBERT model (microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext) adapted to the task by changing the loss function to a BCE one for multi-label classification and running it during 28 epochs on **Train and Dev** with a learning rate of 5e-5.
 
 **Folder**: `model 5 - PubMed Train+Dev`
+
+**Refused**: Due to negative predictions.
 
 ### BC7 Submission 61
 
